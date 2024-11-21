@@ -1,0 +1,15 @@
+/* Ocultar la barra de desplazamiento en todo el documento */
+body {
+    overflow: hidden; /* Esto oculta toda la barra de desplazamiento */
+  }
+  
+  /* Si solo quieres ocultar la barra de desplazamiento en un contenedor específico */
+  .scrollable-element {
+    overflow-y: scroll; /* Para permitir el desplazamiento vertical sin mostrar la barra */
+    scrollbar-width: none; /* Para Firefox */
+  }
+  
+  .scrollable-element::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari y Opera */
+  }
+  
