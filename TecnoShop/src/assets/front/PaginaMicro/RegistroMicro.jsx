@@ -13,8 +13,9 @@ export default function RegistroMicro() {
   const [descripcion, setDescripcion] = useState("");
   const [logoURL, setLogoURL] = useState("");
   const [direccion, setDireccion] = useState("");
-  const [telefono, setTelefono] = useState(""); // Retain telefono field
+  const [telefono, setTelefono] = useState("");
   const [errors, setErrors] = useState([]);
+  const [onboardingLink, setOnboardingLink] = useState(null);
   const navigate = useNavigate();
   const { registerTienda } = useTienda();
 
