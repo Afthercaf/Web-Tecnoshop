@@ -17,7 +17,7 @@ import {  obtenerProductos,
   obtenerProducto,
   registrarProducto,
   actualizarProducto,
-  eliminarProducto, } from '../controllers/Productos.controller.js';
+  eliminarProducto, } from '../controllers/productos.controller.js';
 import { getUserById,updateUser } from '../controllers/usersn.contoller.js';
 
 import { 
