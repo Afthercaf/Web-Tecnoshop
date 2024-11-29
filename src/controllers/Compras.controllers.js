@@ -1,7 +1,7 @@
 import { TOKEN_SECRET } from "../config.js";
 import { Compra } from "../models/Pedidos.model.js";
 import jwt from "jsonwebtoken";
-import { Producto } from '../models/Productos.model.js';
+import { Producto } from '../models/productos.model.js';
 import { User } from "../models/user.model.js";
 
 export const actualizarPedido = async (req, res) => {
