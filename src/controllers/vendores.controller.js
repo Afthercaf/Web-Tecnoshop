@@ -1,6 +1,6 @@
 import { Tienda } from "../models/venderos.model.js";
 import { User } from "../models/user.model.js";
-import { Producto } from "../models/Productos.model.js";
+import { Producto } from "../models/productos.model.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 import { TOKEN_SECRET } from "../config.js";
