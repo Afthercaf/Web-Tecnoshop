@@ -1,6 +1,6 @@
 // productoController.js
   import jwt from "jsonwebtoken";
-  import { Producto } from '../models/Productos.model.js';
+  import { Producto } from '../models/productos.model.js';
   import { Tienda } from '../models/venderos.model.js'; // Asegúra
   import { TOKEN_SECRET } from "../config.js";
 
